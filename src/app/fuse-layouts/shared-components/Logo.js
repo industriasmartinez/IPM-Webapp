@@ -41,7 +41,7 @@ function Logo() {
         className="text-16 ml-12 font-light logo-text"
         color="textPrimary"
       >
-        INDUSTRIAS MARTINEZ 2019
+        INDUSTRIAS MARTINEZ
       </Typography>
     </div>
   );
