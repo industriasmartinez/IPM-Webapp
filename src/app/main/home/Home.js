@@ -16,7 +16,7 @@ class Home extends Component {
         }}
         header={
           <div className="p-24">
-            <h4>Industrias Martinez</h4>
+            <h4>Martinez</h4>
           </div>
         }
         contentToolbar={
@@ -27,6 +27,7 @@ class Home extends Component {
         content={
           <div className="p-24">
             <h4>Content</h4>
+            <DemoContent />
           </div>
         }
       />

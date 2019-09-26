@@ -1,7 +1,7 @@
 const navigationConfig = [
   {
     id: "applications",
-    title: "Applications",
+    title: "APLICACIONES",
     type: "group",
     icon: "apps",
     children: [
@@ -23,6 +23,13 @@ const navigationConfig = [
           bg: "red",
           fg: "#FFFFFF"
         }
+      },
+      {
+        id: "calendar-component",
+        title: "Calendar",
+        type: "item",
+        icon: "calendar_today",
+        url: "/apps/calendar"
       }
     ]
   }

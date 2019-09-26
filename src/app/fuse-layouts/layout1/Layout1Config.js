@@ -2,7 +2,7 @@ const config = {
   title: "Layout 1 - Vertical",
   defaults: {
     mode: "fullwidth",
-    scroll: "body",
+    scroll: "content",
     navbar: {
       display: true,
       folded: false,
