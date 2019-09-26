@@ -45,7 +45,7 @@ function Login() {
 
         <FuseAnimate animation="transition.slideUpIn" delay={300}>
           <Typography variant="h3" color="inherit" className="font-light">
-            Welcome to the FUSE!
+            Bienvenidos
           </Typography>
         </FuseAnimate>
 
@@ -66,18 +66,18 @@ function Login() {
         <Card className="w-full max-w-400 mx-auto m-16 md:m-0" square>
           <CardContent className="flex flex-col items-center justify-center p-32 md:p-48 md:pt-128 ">
             <Typography variant="h6" className="text-center md:w-full mb-48">
-              LOGIN TO YOUR ACCOUNT
+              Inicia sesión con tu cuenta.
             </Typography>
 
             <FirebaseLoginTab />
 
             <div className="flex flex-col items-center justify-center pt-32">
-              <span className="font-medium">Don't have an account?</span>
+              <span className="font-medium">¿No tenés cuenta?</span>
               <Link className="font-medium" to="/register">
-                Create an account
+                Registrate
               </Link>
               <Link className="font-medium mt-8" to="/">
-                Back to Dashboard
+                Volver al dashboard
               </Link>
             </div>
           </CardContent>

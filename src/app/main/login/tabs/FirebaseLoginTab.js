@@ -45,6 +45,7 @@ function FirebaseLoginTab(props) {
         <TextFieldFormsy
           className="mb-16"
           type="text"
+          autocomplete="off"
           name="username"
           label="Email"
           value=""
@@ -101,7 +102,7 @@ function FirebaseLoginTab(props) {
           disabled={!isFormValid}
           value="firebase"
         >
-          Log in with Firebase
+          Iniciar sesión
         </Button>
       </Formsy>
     </div>
