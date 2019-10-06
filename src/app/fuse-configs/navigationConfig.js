@@ -1,3 +1,5 @@
+import { authRoles } from "app/auth";
+
 const navigationConfig = [
   {
     id: "applications",
@@ -10,7 +12,8 @@ const navigationConfig = [
         title: "Example",
         type: "item",
         icon: "whatshot",
-        url: "/example"
+        url: "/example",
+        auth: authRoles.user,
       },
       {
         id: "home-component",
@@ -18,11 +21,20 @@ const navigationConfig = [
         type: "item",
         icon: "home",
         url: "/home",
+        auth: authRoles.user,
         badge: {
           title: 2,
           bg: "red",
           fg: "#FFFFFF"
         }
+      },
+      {
+        id: "calendar-component",
+        title: "Calendar",
+        type: "item",
+        icon: "calendar_today",
+        url: "/apps/calendar",
+        auth: authRoles.user,
       }
     ]
   }
